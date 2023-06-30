@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Library Management System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="loader">
+    <div class="bookshelf_wraper">
+      <ul class="book_list">
+        <li class="book_item first"></li>
+        <li class="book_item second">
+          </1i>
+        <li class="book_item third">
+          </1i>
+        <li class="book_item fourth">
+        </li>
+        <li class="book_item fifth">
+          </1i>
+        <li class="book_item sixth">
+          </1i>
+      </ul>
+      <div class="shelf"></div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="form-container">
+      <h1>Login</h1>
+      <form method="post">
+        <input type="text" placeholder="Username" name="username" required>
+        <input type="password" placeholder="Password" name="password" required>
+        <button type="submit">Login</button>
+      </form>
+      <p>Don't have an account? <a href="/register">Register</a></p>
+    </div>
+  </div>
+  <script>
+    window.addEventListener('load', function () {
+      const loadingPage = document.getElementById('loader');
+      loadingPage.style.display = 'none';
+    });
+  </script>
+</body>
+
+</html>
