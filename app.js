@@ -35,7 +35,7 @@ connection.connect((err) => {
 
 // Routes
 app.get('/', (req, res) => {
-    res.sendFile(__dirname + '/loading.html');
+    res.redirect('/login');
 });
 
 app.get('/login', (req, res) => {
